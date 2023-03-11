@@ -9,5 +9,5 @@ public interface DepartmentRepository {
 
     Department create(Department department) throws SQLException;
     void deleteDepartmentByID(long ID) throws SQLException;
-    List<Object> findDepartmentByName(String part);
+    List<Object> findDepartmentByName(String part) throws SQLException;
 }
