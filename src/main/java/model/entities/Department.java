@@ -61,6 +61,8 @@ public class Department {
         this.maxCapacity = maxCapacity;
     }
 
+
+
     @Override
     public String toString() {
         return "Department{" +

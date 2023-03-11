@@ -2,7 +2,6 @@ package model.data.implemented;
 import model.data.abstracted.DepartmentRepository;
 import model.entities.Department;
 import model.entities.Dependent;
-
 import java.util.ArrayList;
 import java.util.List;
 
